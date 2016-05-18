@@ -62,7 +62,7 @@
 				<!-- Navigation -->
 				<nav class="menu">
 					<ul class="tabs">
-						<li><a href="profile.php" class="tab-profile" title="Profile">Profile</a></li>
+						<li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
 						<li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
 						<li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
 						<li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>

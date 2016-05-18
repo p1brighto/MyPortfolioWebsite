@@ -1,5 +1,5 @@
-<?php
-$tittle=Brighto Paul | Problem solving,then coding | P1bright@;
+<?php ob_start();
+$tittle="Brighto Paul | Problem solving,then coding | P1bright@";
 require_once('header.php');
 ?>
 
@@ -62,4 +62,5 @@ require_once('header.php');
 <!-- End Profile Tab --> 
 <?php
 require_once('footer.php');
+ob_flush();
 ?>

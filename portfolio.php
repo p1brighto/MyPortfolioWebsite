@@ -1,5 +1,5 @@
 <?php ob_start();
-$tittle=Brighto Paul | Problem solving,then coding | P1bright@;
+$tittle="Portfolio";
 require_once('header.php');
 ?>
 
