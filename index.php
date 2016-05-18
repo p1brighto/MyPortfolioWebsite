@@ -1,7 +1,4 @@
-<?php ob_start();
-$tittle=Brighto Paul | Problem solving,then coding | P1bright@;
-require_once('header.php');
-?>
+
 
 <!-- Profile Tab-->
 <section id="profile"> 
@@ -60,7 +57,3 @@ require_once('header.php');
     <!-- End Right Column -->
 </section>
 <!-- End Profile Tab --> 
-<?php
-require_once('footer.php');
-ob_flush();
-?>
