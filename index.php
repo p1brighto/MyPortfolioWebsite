@@ -2,7 +2,6 @@
 $tittle="Brighto Paul | Problem solving,then coding | P1bright@";
 require_once('header.php');
 ?>
-
 <!-- Profile Tab-->
 <section id="profile"> 
     <!-- Left Column-->

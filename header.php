@@ -9,7 +9,7 @@
 	<meta name="description" content="Brighto Paul Resume" /> 
 	<meta name="keywords" content="Brighto Paul"/>
 	<meta name="author" content="Brighto Paul"/>
-	<title><?php echo $title; ?></title>
+	<title><?php echo $tittle; ?></title>
 	<!-- End Meta Info -->
 	
 	<!-- Stylesheets (Css files)-->
@@ -60,12 +60,32 @@
 				</div>
 				<!-- End Logo -->
 				<!-- Navigation -->
-				<nav class="menu">
+				<nav class="menu"> 
 					<ul class="tabs">
-						<li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
-						<li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
-						<li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
-						<li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>
+                        <?php if($tittle=="Brighto Paul | Problem solving,then coding | P1bright@"){?>
+                                <li class="active"><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
+                                <li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
+                                <li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
+                        <?php }?>
+                        <?php if($tittle=="Resume"){?>
+                                <li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
+                                <li class="active"><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
+                                <li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
+                        <?php }?>
+                        <?php if($tittle=="Portfolio"){?>
+                                <li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
+                                <li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li class="active"><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
+                                <li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
+                        <?php }?>
+                        <?php if($tittle=="Contact"){?>
+                                <li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
+                                <li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
+                                <li class="active"><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
+                        <?php }?>
 					</ul>
 				</nav>
 				<!-- End Navigation -->
@@ -77,4 +97,3 @@
 				<h2><a href="#" title="Problem solving,then coding"><strong>BRIGHTO PAUL</strong></a></h2>
 			</div>
 			<!-- End Hidden Logo -->
-				

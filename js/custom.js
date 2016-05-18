@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 		
 	// Needed variables
 	var $content 		= $("#content");
-	
+	/*
 	// Run easytabs
   	$content.easytabs({
 	  animate			: true, //Makes content panels fade out and in when a new tab is clicked.
@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
 	  animationSpeed	:600, //Controls the speed of the fading effect if animate: true.
 	  tabs				:".header > .menu > ul > li",
 	  tabActiveClass	:'active'
-	});
+	});*/
 	
 	//Hover menu effect
 	$content.find('.tabs li a').hover(
@@ -33,26 +33,6 @@ jQuery(document).ready(function(){
 		position:{my: 'top center', at: 'bottom center', adjust: {y: 1}},
 		style: {classes: 'ui-tooltip-tipsy ui-tooltip-shadow'}		
 	});
-	
-	// --------------------------------------------------------
-	//	Google Map
-	// --------------------------------------------------------
-	
-	var $map = $('#map'),
-		$tabContactClass = ('tab-contact'),
-		$address = '253 Johnson st., Barrie, ON, Canada'; //address for google map
-	
-	$content.bind('easytabs:after', function(evt,tab,panel) {
-		if ( tab.hasClass($tabContactClass) ) {
-			$map.gMap({
-				address: $address,
-				zoom: 16,
-				markers: [
-					{ 'address' : $address }
-				]
-			});
-		}
-  	});
 	
 	// --------------------------------------------------------
 	//	Flexslider - Profile Tab (Photo slider & Carousel Slider) + Resume Tab (Testimonials)
