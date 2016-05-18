@@ -1,6 +1,5 @@
 <?php
 
-
  $r = array();
 
 if(isset($_POST['contact_form'])) {
