@@ -17,14 +17,14 @@ require_once('header.php');
             <h4><span>Contact details</span></h4>
             <!-- Social Icons -->
             <div class="social-bookmarks">
-                <ul>
-                    <li class="twitter"><a href="https://twitter.com/p1brighto" title="Follow me on Twitter" target="_blank">>twitter</a></li>
-                        <li class="facebook"><a href="https://www.facebook.com/p1brighto" title="Find me on Facebook" target="_blank">>facebook</a></li>
-                        <li class="googleplus"><a href="https://plus.google.com/+brightopaul" title="Googleplus" target="_blank">>googleplus</a></li>
-                        <li class="linkedin"><a href="https://ca.linkedin.com/pub/brighto-paul/b7/70/350" title="LinkedIn" target="_blank">>linkedin</a></li>
-                        <li class="github"><a href="https://github.com/p1brighto" title="GitHub" target="_blank">github</a></li>
-                </ul>
-            </div>
+						<ul>
+                            <li><a href="https://github.com/p1brighto" title="GitHub" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>                         
+                            <li><a href="https://ca.linkedin.com/pub/brighto-paul/b7/70/350" title="LinkedIn" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            <li><a href="https://www.facebook.com/p1brighto" title="Find me on Facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+                            <li><a href="https://twitter.com/p1brighto" title="Follow me on Twitter" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href="https://plus.google.com/+brightopaul" title="Googleplus" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a></li>
+						</ul>
+					</div>
             <!-- End Social Icons-->
             <!-- Contact Details -->
             <ul class="contact-details">
