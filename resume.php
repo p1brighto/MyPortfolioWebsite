@@ -80,7 +80,7 @@ require_once('header.php');
                 <td class="values">
                     <label class="java">Java<span class="java">90</span></label>
                     <label class="c">C#<span class="c">70</span></label>
-                    <label class="express">Express.js<span class="express">80</span></label>
+                    <label class="mean">MEAN stack<span class="mean">80</span></label>
                     <label class="php">PHP<span class="php">85</span></label>							
                     <label class="html">HTML/CSS<span class="html">80</span></label>
                     <label class="mysql">MySql<span class="mysql">95</span></label>

@@ -26,8 +26,7 @@ require_once('header.php');
     <!-- Start Right Column -->
     <div class="twothird-column">					
         <h2><span>Personal Info</span></h2>
-        <p>I am <a href="#" title="Brighto Paul">Brighto Paul</a> living in Barrie,ON,Canada.I am a Computer Programming Student at Georgian College. I have a great passion of
-            Programming and Web development. I possess skills and knowledge in C#, C++,Express.js, Node.js,Typescript, Java, PHP,HTML/HTML5, CSS/3, SQL, basics in Angular JS, Mainframe, Troubleshooting etc.</p>
+        <p>I am <a href="#" title="Brighto Paul">Brighto Paul</a>  living in Barrie,ON,Canada.I am a Computer Programming Student at Georgian College. I have a great passion of Programming and Web development. I possess skills and knowledge in C#, C++,MEAN stack(Mongo DB, Express.js, Angular.js, Node.js), Typescript, Java, PHP,HTML/HTML5, CSS/3, SQL, Mainframe, Troubleshooting etc.</p>
         <!-- Personal Details -->
         <ul class="details">
             <li><span>Name</span> 		<a href="#" title="Problem solving,then coding">Brighto Paul</a></li>
