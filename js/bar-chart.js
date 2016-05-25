@@ -1,4 +1,3 @@
-
 	/**
 	* Initiates Graph Functions
 	**/
@@ -100,5 +99,3 @@
 		graphLines(); // makes the lines for the chart
 		graphBars(); // make the bars
 	}
-	
-	
