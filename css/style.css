@@ -254,7 +254,7 @@ Version: 1.1
 	/* ---------------------------------------------------------------------- */
 	/*	Resume Tab
 	/* ---------------------------------------------------------------------- */
-	#skill-rating {margin-top:15px; margin-bottom:25px;}
+    #skill-rating {margin-top:15px; margin-bottom:25px;}
 	#skill-rating .graph { height: 200px; width: 300px; margin-right:10px; overflow:hidden;}
 	.graph {clear:both; float:none;}
 	.graphtable {clear:both; float:none;}
