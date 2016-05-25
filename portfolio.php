@@ -12,7 +12,7 @@ require_once('header.php');
             <li><a href="#" class="current" data-filter="*">All</a></li>
             <li><a href="#" data-filter=".php">PHP/HTML</a></li>
             <li><a href="#" data-filter=".c">C#</a></li>
-            <li><a href="#" data-filter=".express">Node.js & Express.js</a></li>
+            <li><a href="#" data-filter=".mean">MEAN stack</a></li>
             <li><a href="#" data-filter=".java">Java</a></li>
             <li><a href="#" data-filter=".arduino">Arduino</a></li>
             <li><a href="#" data-filter=".video">Video-editing</a></li>
