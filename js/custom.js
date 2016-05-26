@@ -1,3 +1,10 @@
+/***************************************************
+Theme Name: Personal Website
+Author: Brighto Paul
+Author URI: http://www.brighto-paul.com
+Version: 1.1
+***************************************************/
+
 jQuery(document).ready(function(){ 
 	
 	// --------------------------------------------------------
@@ -75,8 +82,6 @@ jQuery(document).ready(function(){
 	//	Graphical skill chart
 	// -------------------------------------------------------- 
 	
-	 $content.bind('easytabs:after', function(evt, tab, panel, data) {
-	  if ( tab.hasClass('tab-resume') ) {
 			$graph_id    = 'skill-rating'; // id of graph container	
 			$lines 		 = 5; // number of lines - keep this 10 unless you want to write a bunch more code
 			$bar_margins = 5; // margins between the bars
@@ -84,8 +89,6 @@ jQuery(document).ready(function(){
 			$animate 	 = true; // set to false if multiple charts on one page
 			var graph = new egraph($graph_id,$lines,$bar_margins,$bar_speed, $animate);
 			graph.animateBars();
-		}
-	});
 	
 	
 	// --------------------------------------------------------
