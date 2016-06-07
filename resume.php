@@ -10,21 +10,21 @@ require_once('header.php');
         <!-- Experience-->
             <h2><span>RELATED COMPUTER EXPERIENCE</span></h2>					
             <div class="job-position">
+                <h4>Technical Support</h4>
+            </div>
+            <div class="job-details">
+                <div class="curly-brace">{</div>
+                <h4> <span>(2015- present)</span></h4>
+                <p>Working as a Techinical support for the cable company Cogeco at Transcom Worldwide (North America) Inc.</p>	
+            </div>
+            <div class="clear"></div>
+            <div class="job-position">
                 <h4>Computer Maintenance Support</h4>
             </div>
             <div class="job-details">
                 <div class="curly-brace">{</div>
                 <h4> <span>(2011- 2014)</span></h4>
                 <p>Provided computer software installation, hardware installation, maintenance and support for neighbors, relatives and friends, as requested.</p>	
-            </div>
-            <div class="clear"></div>
-            <div class="job-position">
-                <h4>Video Editor</h4>
-            </div>
-            <div class="job-details">
-                <div class="curly-brace">{</div>
-                <h4> <span>(2008 - 2010)</span></h4>
-                <p>Developed video and editing of family wedding and for fun ride on a <a href="https://www.youtube.com/watch?v=zL8CyjCtE_c" >”Rare Butterfly in India”</a>using Nero Multimedia suite.</p>	
             </div>
             <!-- End Experience-->				
             <div class="clear"></div>	
