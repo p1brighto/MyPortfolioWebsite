@@ -1,10 +1,10 @@
 <?php ob_start();
-$tittle="Resume";
+$tittle="About";
 require_once('header.php');
 ?>
 
-<!-- Start Resume Tab -->
-    <section id="resume">
+<!-- Start About Tab -->
+    <section id="about">
         <!-- Left Column-->
         <div class="half-column">
         <!-- Experience-->
@@ -92,7 +92,7 @@ require_once('header.php');
         </div>
         <!-- End Right Column -->
     </section>
-<!-- End Resume Tab --> 
+<!-- End About Tab --> 
 <?php
 require_once('footer.php');
 ob_flush();

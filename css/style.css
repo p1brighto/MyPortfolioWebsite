@@ -20,7 +20,7 @@ Version: 1.1
 	/* ---------------------------------------------------------------------- */
 	/*	Various classes
 	/* ---------------------------------------------------------------------- */
-    #profile, #resume, #portfolio, #contact {padding:10px 20px;overflow:hidden;}
+    #profile, #about, #portfolio, #contact {padding:10px 20px;overflow:hidden;}
 	.hidden {display: none;}
 	.clear {clear:both;}
 	
@@ -228,13 +228,13 @@ Version: 1.1
 	.tabs li.active {background: url('../img/content-bg.png') ; -webkit-box-shadow:  0 5px 10px rgba(0, 0, 0, 0.35); -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35) ; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);}
 	.tabs li.active a {color:#7EB1BE;}
 	.tabs li .tab-profile {background-image:url(../img/icons/icon-profile.png);}
-	.tabs li .tab-resume {background-image:url(../img/icons/icon-resume.png);}
+	.tabs li .tab-about {background-image:url(../img/icons/icon-about.png);}
 	.tabs li .tab-portfolio {background-image:url(../img/icons/icon-portfolio.png);}
 	.tabs li .tab-contact {background-image:url(../img/icons/icon-contact.png);}
 
 	/* Active icons */
 	.tabs .active .tab-profile, .tabs li .tab-profile:hover {background-image:url(../img/icons/icon-profile-active.png);}
-	.tabs .active .tab-resume, .tabs li .tab-resume:hover {background-image:url(../img/icons/icon-resume-active.png);}
+	.tabs .active .tab-about, .tabs li .tab-about:hover {background-image:url(../img/icons/icon-about-active.png);}
 	.tabs .active .tab-portfolio, .tabs li .tab-portfolio:hover {background-image:url(../img/icons/icon-portfolio-active.png);}
 	.tabs .active .tab-contact, .tabs li .tab-contact:hover {background-image:url(../img/icons/icon-contact-active.png);}
 	
@@ -252,7 +252,7 @@ Version: 1.1
 	#photo-slider, #carousel-slider { margin-top:10px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; border:5px solid #F1F1F1;}
 	
 	/* ---------------------------------------------------------------------- */
-	/*	Resume Tab
+	/*	About Tab
 	/* ---------------------------------------------------------------------- */
     #skill-rating {margin-top:15px; margin-bottom:25px;}
 	#skill-rating .graph { height: 200px; width: 300px; margin-right:10px; overflow:hidden;}

@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/gif" href="img/favicon.gif">
 	<!-- Meta Info -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="description" content="Brighto Paul Resume" /> 
+	<meta name="description" content="Brighto Paul " /> 
 	<meta name="keywords" content="Brighto Paul"/>
 	<meta name="author" content="Brighto Paul"/>
 	<title><?php echo $tittle; ?></title>
@@ -65,25 +65,25 @@
 					<ul class="tabs">
                         <?php if($tittle=="Brighto Paul | Problem solving,then coding | P1bright@"){?>
                                 <li class="active"><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
-                                <li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li><a href="about.php" class="tab-about" title="About">About</a></li>
                                 <li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
                                 <li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
                         <?php }?>
-                        <?php if($tittle=="Resume"){?>
+                        <?php if($tittle=="About"){?>
                                 <li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
-                                <li class="active"><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li class="active"><a href="about.php" class="tab-about" title="About">About</a></li>
                                 <li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
                                 <li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
                         <?php }?>
                         <?php if($tittle=="Portfolio"){?>
                                 <li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
-                                <li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li><a href="about.php" class="tab-about" title="About">About</a></li>
                                 <li class="active"><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
                                 <li><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
                         <?php }?>
                         <?php if($tittle=="Contact"){?>
                                 <li><a href="index.php" class="tab-profile" title="Profile">Profile</a></li>
-                                <li><a href="resume.php" class="tab-resume" title="Resume">Resume</a></li>
+                                <li><a href="about.php" class="tab-about" title="About">About</a></li>
                                 <li><a href="portfolio.php" class="tab-portfolio" title="Portfolio">Portfolio</a></li>
                                 <li class="active"><a href="contact.php" class="tab-contact" title="Contact">Contact</a></li>          
                         <?php }?>

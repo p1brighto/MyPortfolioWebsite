@@ -42,7 +42,7 @@ jQuery(document).ready(function(){
 	});
 	
 	// --------------------------------------------------------
-	//	Flexslider - Profile Tab (Photo slider & Carousel Slider) + Resume Tab (Testimonials)
+	//	Flexslider - Profile Tab (Photo slider & Carousel Slider) + About Tab (Testimonials)
 	// --------------------------------------------------------
 	
 	$('#photo-slider').flexslider({
